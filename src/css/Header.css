@@ -1,29 +1,38 @@
-header {
+.LeftHeader {
+  position: fixed;
+  top: 2rem;
+  left: 3rem;
+  width: 60px;
+  height: 42%;
   background-color: #333;
-  padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 20px;
 }
 
-h1 {
-  margin: 0;
-}
-
-nav {
-  display: flex;
-}
-
-nav ul {
+.LeftHeader ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 0px;
+  list-style: none;
 }
 
-nav li {
-  margin-right: 1rem;
-}
-
-nav a {
-  color: #333;
+.LeftHeader a {
   text-decoration: none;
+  color: #fff;
+}
+
+.LeftHeader img {
+  height: auto;
+  width: 50%;
+  margin-top: 12px;
+}
+
+.LeftHeader p {
+  /* T R B L */
+  margin: 0px 0px 12px;
+  font-size: 12px;
+  list-style: none;
 }

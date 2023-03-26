@@ -1,0 +1,48 @@
+.Badge {
+  position: relative;
+  width: 628px;
+  height: 2000px;
+  left: 6rem;
+  top: 2rem;
+}
+
+.Badge img {
+  width: 500px;
+  height: auto;
+}
+
+.Badge h1 {
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.Badge h2 {
+  color: #a77dff;
+  margin: 2px 0px 4px;
+}
+
+.Badge h3 {
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+.badge-info {
+  transform: translateY(-180%);
+}
+
+.badge-links {
+  position: relative;
+  width: 450px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  bottom: 190px;
+  left: 85px;
+}
+
+.badge-links p {
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+}

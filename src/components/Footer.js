@@ -5,12 +5,12 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container">
-        <p>&copy; 2023 Golden Ghoulworks</p>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+        <p>&copy; 2023 Scott Nideffer</p>
+        <nav className='footer-nav'>
+          <ul className='footer-ul'>
+            <li><button>Home</button></li>
+            <li><button>About</button></li>
+            <li><button>Contact</button></li>
           </ul>
         </nav>
       </div>
