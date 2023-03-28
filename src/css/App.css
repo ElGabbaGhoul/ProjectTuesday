@@ -1,6 +1,11 @@
 .App {
   text-align: center;
+}
+
+.background {
   background-color: #CDBCF1;
+  height: 80rem;
+  width: auto;
 }
 
 .App-logo {

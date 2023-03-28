@@ -1,0 +1,25 @@
+.ContentWindow {
+  width: 100rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 300px;
+  background-color: #373737;
+  color: #DFDFDF;
+}
+
+.standalone {
+  animation: color-change 10s infinite;
+}
+
+@keyframes color-change {
+  0% { color: #A77DFF; }
+  20% { color: #9AC6C5; }
+  40% { color: #E8DDB5; }
+  /* add one more color, F0D2D1 */
+  /* possible color: 133C55 */
+  60% { color: #E8DDB5; }
+  80% { color: #9AC6C5; }
+  100% { color: #A77DFF; }
+}
